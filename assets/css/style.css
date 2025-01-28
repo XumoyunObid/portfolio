@@ -834,7 +834,18 @@ main {
  * skills 
  */
 
-.skills-title { margin-bottom: 20px; }
+.skills-title { margin-bottom: 20px;}
+.cv {
+  color: var(--vegas-gold);
+  text-decoration: underline; 
+  margin-bottom: 20px;
+}
+
+.cv:visited {
+  color: var(--vegas-gold);
+  text-decoration: underline; 
+  margin-bottom: 20px;
+}
 
 .skills-list { padding: 20px; }
 
